@@ -67,6 +67,11 @@ class ProductController extends AbstractController
      */
     public function showNewProducts(ProductRepository $productRepo): Response
     {
+        header("Access-Control-Allow-Origin: *");
+        header("Access-Control-Allow-Headers: *");
+        header("Access-Control-Allow-Methods: 'GET', 'OPTIONS', 'POST', 'PUT', 'PATCH', 'DELETE'");
+
+
 
         $nouveautes = $productRepo->findNewProduct();
         

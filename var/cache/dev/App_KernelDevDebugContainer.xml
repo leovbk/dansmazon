@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <container xmlns="http://symfony.com/schema/dic/services" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://symfony.com/schema/dic/services https://symfony.com/schema/dic/services/services-1.0.xsd">
   <parameters>
-    <parameter key="kernel.project_dir">/Users/macdeleo/Desktop/dansmazone/dansmazone</parameter>
+    <parameter key="kernel.project_dir">C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon</parameter>
     <parameter key="kernel.environment">dev</parameter>
     <parameter key="kernel.runtime_environment">%env(default:kernel.environment:APP_RUNTIME_ENV)%</parameter>
     <parameter key="kernel.debug">true</parameter>
-    <parameter key="kernel.build_dir">/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev</parameter>
-    <parameter key="kernel.cache_dir">/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev</parameter>
-    <parameter key="kernel.logs_dir">/Users/macdeleo/Desktop/dansmazone/dansmazone/var/log</parameter>
+    <parameter key="kernel.build_dir">C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev</parameter>
+    <parameter key="kernel.cache_dir">C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev</parameter>
+    <parameter key="kernel.logs_dir">C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\log</parameter>
     <parameter key="kernel.bundles" type="collection">
       <parameter key="FrameworkBundle">Symfony\Bundle\FrameworkBundle\FrameworkBundle</parameter>
       <parameter key="DoctrineBundle">Doctrine\Bundle\DoctrineBundle\DoctrineBundle</parameter>
@@ -25,61 +25,61 @@
     </parameter>
     <parameter key="kernel.bundles_metadata" type="collection">
       <parameter key="FrameworkBundle" type="collection">
-        <parameter key="path">/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/framework-bundle</parameter>
+        <parameter key="path">C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\framework-bundle</parameter>
         <parameter key="namespace">Symfony\Bundle\FrameworkBundle</parameter>
       </parameter>
       <parameter key="DoctrineBundle" type="collection">
-        <parameter key="path">/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/doctrine/doctrine-bundle</parameter>
+        <parameter key="path">C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\doctrine\doctrine-bundle</parameter>
         <parameter key="namespace">Doctrine\Bundle\DoctrineBundle</parameter>
       </parameter>
       <parameter key="DoctrineMigrationsBundle" type="collection">
-        <parameter key="path">/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/doctrine/doctrine-migrations-bundle</parameter>
+        <parameter key="path">C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\doctrine\doctrine-migrations-bundle</parameter>
         <parameter key="namespace">Doctrine\Bundle\MigrationsBundle</parameter>
       </parameter>
       <parameter key="DebugBundle" type="collection">
-        <parameter key="path">/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/debug-bundle</parameter>
+        <parameter key="path">C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\debug-bundle</parameter>
         <parameter key="namespace">Symfony\Bundle\DebugBundle</parameter>
       </parameter>
       <parameter key="TwigBundle" type="collection">
-        <parameter key="path">/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/twig-bundle</parameter>
+        <parameter key="path">C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\twig-bundle</parameter>
         <parameter key="namespace">Symfony\Bundle\TwigBundle</parameter>
       </parameter>
       <parameter key="WebProfilerBundle" type="collection">
-        <parameter key="path">/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/web-profiler-bundle</parameter>
+        <parameter key="path">C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\web-profiler-bundle</parameter>
         <parameter key="namespace">Symfony\Bundle\WebProfilerBundle</parameter>
       </parameter>
       <parameter key="WebpackEncoreBundle" type="collection">
-        <parameter key="path">/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/webpack-encore-bundle/src</parameter>
+        <parameter key="path">C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\webpack-encore-bundle\src</parameter>
         <parameter key="namespace">Symfony\WebpackEncoreBundle</parameter>
       </parameter>
       <parameter key="TwigExtraBundle" type="collection">
-        <parameter key="path">/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/twig/extra-bundle</parameter>
+        <parameter key="path">C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\twig\extra-bundle</parameter>
         <parameter key="namespace">Twig\Extra\TwigExtraBundle</parameter>
       </parameter>
       <parameter key="SecurityBundle" type="collection">
-        <parameter key="path">/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-bundle</parameter>
+        <parameter key="path">C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-bundle</parameter>
         <parameter key="namespace">Symfony\Bundle\SecurityBundle</parameter>
       </parameter>
       <parameter key="MonologBundle" type="collection">
-        <parameter key="path">/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/monolog-bundle</parameter>
+        <parameter key="path">C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\monolog-bundle</parameter>
         <parameter key="namespace">Symfony\Bundle\MonologBundle</parameter>
       </parameter>
       <parameter key="MakerBundle" type="collection">
-        <parameter key="path">/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/maker-bundle/src</parameter>
+        <parameter key="path">C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\maker-bundle\src</parameter>
         <parameter key="namespace">Symfony\Bundle\MakerBundle</parameter>
       </parameter>
       <parameter key="SensioFrameworkExtraBundle" type="collection">
-        <parameter key="path">/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/sensio/framework-extra-bundle/src</parameter>
+        <parameter key="path">C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\sensio\framework-extra-bundle\src</parameter>
         <parameter key="namespace">Sensio\Bundle\FrameworkExtraBundle</parameter>
       </parameter>
       <parameter key="NelmioCorsBundle" type="collection">
-        <parameter key="path">/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/nelmio/cors-bundle</parameter>
+        <parameter key="path">C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\nelmio\cors-bundle</parameter>
         <parameter key="namespace">Nelmio\CorsBundle</parameter>
       </parameter>
     </parameter>
     <parameter key="kernel.charset">UTF-8</parameter>
     <parameter key="kernel.container_class">App_KernelDevDebugContainer</parameter>
-    <parameter key="image_directory">/Users/macdeleo/Desktop/dansmazone/dansmazone/public/uploads/images/products</parameter>
+    <parameter key="image_directory">C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon/public/uploads/images/products</parameter>
     <parameter key="event_dispatcher.event_aliases" type="collection">
       <parameter key="Symfony\Component\Console\Event\ConsoleCommandEvent">console.command</parameter>
       <parameter key="Symfony\Component\Console\Event\ConsoleErrorEvent">console.error</parameter>
@@ -115,17 +115,17 @@
     <parameter key="asset.request_context.base_path">null</parameter>
     <parameter key="asset.request_context.secure">null</parameter>
     <parameter key="translator.logging">false</parameter>
-    <parameter key="translator.default_path">/Users/macdeleo/Desktop/dansmazone/dansmazone/translations</parameter>
+    <parameter key="translator.default_path">C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon/translations</parameter>
     <parameter key="debug.error_handler.throw_at">-1</parameter>
-    <parameter key="debug.container.dump">/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev/App_KernelDevDebugContainer.xml</parameter>
+    <parameter key="debug.container.dump">C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev/App_KernelDevDebugContainer.xml</parameter>
     <parameter key="router.request_context.host">localhost</parameter>
     <parameter key="router.request_context.scheme">http</parameter>
     <parameter key="router.request_context.base_url"></parameter>
     <parameter key="router.resource">kernel::loadRoutes</parameter>
     <parameter key="request_listener.http_port">80</parameter>
     <parameter key="request_listener.https_port">443</parameter>
-    <parameter key="serializer.mapping.cache.file">/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev/serialization.php</parameter>
-    <parameter key="cache.prefix.seed">_/Users/macdeleo/Desktop/dansmazone/dansmazone.App_KernelDevDebugContainer</parameter>
+    <parameter key="serializer.mapping.cache.file">C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev/serialization.php</parameter>
+    <parameter key="cache.prefix.seed">_C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon.App_KernelDevDebugContainer</parameter>
     <parameter key="session.metadata.storage_key">_sf2_meta</parameter>
     <parameter key="session.storage.options" type="collection">
       <parameter key="cache_limiter" type="string">0</parameter>
@@ -134,15 +134,15 @@
       <parameter key="cookie_samesite">lax</parameter>
       <parameter key="gc_probability">1</parameter>
     </parameter>
-    <parameter key="session.save_path">/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev/sessions</parameter>
+    <parameter key="session.save_path">C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev/sessions</parameter>
     <parameter key="session.metadata.update_threshold">0</parameter>
     <parameter key="form.type_extension.csrf.enabled">true</parameter>
     <parameter key="form.type_extension.csrf.field_name">_token</parameter>
-    <parameter key="validator.mapping.cache.file">/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev/validation.php</parameter>
+    <parameter key="validator.mapping.cache.file">C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev/validation.php</parameter>
     <parameter key="validator.translation_domain">validators</parameter>
     <parameter key="profiler_listener.only_exceptions">false</parameter>
     <parameter key="profiler_listener.only_main_requests">false</parameter>
-    <parameter key="profiler.storage.dsn">file:/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev/profiler</parameter>
+    <parameter key="profiler.storage.dsn">file:C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev/profiler</parameter>
     <parameter key="doctrine.dbal.logger.chain.class">Doctrine\DBAL\Logging\LoggerChain</parameter>
     <parameter key="doctrine.dbal.logger.profiling.class">Doctrine\DBAL\Logging\DebugStack</parameter>
     <parameter key="doctrine.dbal.logger.class">Symfony\Bridge\Doctrine\Logger\DbalLogger</parameter>
@@ -209,7 +209,7 @@
     <parameter key="doctrine.orm.second_level_cache.cache_configuration.class">Doctrine\ORM\Cache\CacheConfiguration</parameter>
     <parameter key="doctrine.orm.second_level_cache.regions_configuration.class">Doctrine\ORM\Cache\RegionsConfiguration</parameter>
     <parameter key="doctrine.orm.auto_generate_proxy_classes">true</parameter>
-    <parameter key="doctrine.orm.proxy_dir">/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev/doctrine/orm/Proxies</parameter>
+    <parameter key="doctrine.orm.proxy_dir">C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev/doctrine/orm/Proxies</parameter>
     <parameter key="doctrine.orm.proxy_namespace">Proxies</parameter>
     <parameter key="doctrine.migrations.preferred_em">null</parameter>
     <parameter key="doctrine.migrations.preferred_connection">null</parameter>
@@ -217,7 +217,7 @@
     <parameter key="twig.form.resources" type="collection">
       <parameter>form_div_layout.html.twig</parameter>
     </parameter>
-    <parameter key="twig.default_path">/Users/macdeleo/Desktop/dansmazone/dansmazone/templates</parameter>
+    <parameter key="twig.default_path">C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon/templates</parameter>
     <parameter key="web_profiler.debug_toolbar.intercept_redirects">false</parameter>
     <parameter key="web_profiler.debug_toolbar.mode">2</parameter>
     <parameter key="security.role_hierarchy.roles" type="collection"/>
@@ -250,23 +250,14 @@
     </parameter>
     <parameter key="nelmio_cors.map" type="collection"/>
     <parameter key="nelmio_cors.defaults" type="collection">
-      <parameter key="allow_origin">true</parameter>
+      <parameter key="allow_origin" type="collection"/>
       <parameter key="allow_credentials">false</parameter>
-      <parameter key="allow_headers">true</parameter>
-      <parameter key="expose_headers" type="collection">
-        <parameter>Link</parameter>
-      </parameter>
-      <parameter key="allow_methods" type="collection">
-        <parameter>GET</parameter>
-        <parameter>OPTIONS</parameter>
-        <parameter>POST</parameter>
-        <parameter>PUT</parameter>
-        <parameter>PATCH</parameter>
-        <parameter>DELETE</parameter>
-      </parameter>
-      <parameter key="max_age">3600</parameter>
+      <parameter key="allow_headers" type="collection"/>
+      <parameter key="expose_headers" type="collection"/>
+      <parameter key="allow_methods" type="collection"/>
+      <parameter key="max_age">0</parameter>
       <parameter key="hosts" type="collection"/>
-      <parameter key="origin_regex">true</parameter>
+      <parameter key="origin_regex">false</parameter>
       <parameter key="forced_allow_origin_value">null</parameter>
     </parameter>
     <parameter key="nelmio_cors.cors_listener.class">Nelmio\CorsBundle\EventListener\CorsListener</parameter>
@@ -375,35 +366,35 @@
       <tag name="controller.service_arguments"/>
       <tag name="container.service_subscriber"/>
       <call method="setContainer">
-        <argument type="service" id=".service_locator.GNc8e5B.App\Controller\AdminController"/>
+        <argument type="service" id=".service_locator.mx0UMmY.App\Controller\AdminController"/>
       </call>
     </service>
     <service id="App\Controller\CartController" class="App\Controller\CartController" public="true" autowire="true" autoconfigure="true">
       <tag name="controller.service_arguments"/>
       <tag name="container.service_subscriber"/>
       <call method="setContainer">
-        <argument type="service" id=".service_locator.GNc8e5B.App\Controller\CartController"/>
+        <argument type="service" id=".service_locator.mx0UMmY.App\Controller\CartController"/>
       </call>
     </service>
     <service id="App\Controller\HomeController" class="App\Controller\HomeController" public="true" autowire="true" autoconfigure="true">
       <tag name="controller.service_arguments"/>
       <tag name="container.service_subscriber"/>
       <call method="setContainer">
-        <argument type="service" id=".service_locator.GNc8e5B.App\Controller\HomeController"/>
+        <argument type="service" id=".service_locator.mx0UMmY.App\Controller\HomeController"/>
       </call>
     </service>
     <service id="App\Controller\ProductController" class="App\Controller\ProductController" public="true" autowire="true" autoconfigure="true">
       <tag name="controller.service_arguments"/>
       <tag name="container.service_subscriber"/>
       <call method="setContainer">
-        <argument type="service" id=".service_locator.GNc8e5B.App\Controller\ProductController"/>
+        <argument type="service" id=".service_locator.mx0UMmY.App\Controller\ProductController"/>
       </call>
     </service>
     <service id="App\Controller\SecurityController" class="App\Controller\SecurityController" public="true" autowire="true" autoconfigure="true">
       <tag name="controller.service_arguments"/>
       <tag name="container.service_subscriber"/>
       <call method="setContainer">
-        <argument type="service" id=".service_locator.GNc8e5B.App\Controller\SecurityController"/>
+        <argument type="service" id=".service_locator.mx0UMmY.App\Controller\SecurityController"/>
       </call>
     </service>
     <service id="App\Form\CommentType" class="App\Form\CommentType" autowire="true" autoconfigure="true">
@@ -504,7 +495,7 @@
       </argument>
     </service>
     <service id="http_cache.store" class="Symfony\Component\HttpKernel\HttpCache\Store">
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev/http_cache</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev/http_cache</argument>
     </service>
     <service id="url_helper" class="Symfony\Component\HttpFoundation\UrlHelper">
       <argument type="service" id="request_stack"/>
@@ -514,7 +505,7 @@
       <tag name="container.no_preload"/>
       <argument type="tagged_iterator" tag="kernel.cache_warmer"/>
       <argument>true</argument>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev/App_KernelDevDebugContainerDeprecations.log</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev/App_KernelDevDebugContainerDeprecations.log</argument>
     </service>
     <service id="cache_clearer" class="Symfony\Component\HttpKernel\CacheClearer\ChainCacheClearer" public="true">
       <tag name="container.private" package="symfony/framework-bundle" version="5.2"/>
@@ -726,7 +717,7 @@
       </argument>
       <argument>UTF-8</argument>
       <argument type="service" id="debug.file_link_formatter" on-invalid="null"/>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon</argument>
       <argument type="service">
         <service>
           <argument type="service" id="request_stack"/>
@@ -759,7 +750,7 @@
       <tag name="console.command"/>
       <tag name="container.no_preload"/>
       <argument type="service" id="filesystem"/>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon</argument>
       <call method="setName">
         <argument>assets:install</argument>
       </call>
@@ -931,7 +922,7 @@
       <tag name="console.command"/>
       <tag name="container.no_preload"/>
       <argument>dev</argument>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon</argument>
       <call method="setName">
         <argument>debug:dotenv</argument>
       </call>
@@ -942,7 +933,7 @@
     <service id="console.command.event_dispatcher_debug" class="Symfony\Bundle\FrameworkBundle\Command\EventDispatcherDebugCommand">
       <tag name="console.command"/>
       <tag name="container.no_preload"/>
-      <argument type="service" id=".service_locator.jlyTfzM"/>
+      <argument type="service" id=".service_locator.XsyfP82"/>
       <call method="setName">
         <argument>debug:event-dispatcher</argument>
       </call>
@@ -1106,16 +1097,16 @@
       <argument type="service" id="translator.data_collector"/>
       <argument type="service" id="translation.reader"/>
       <argument type="service" id="translation.extractor"/>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/translations</argument>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/templates</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon/translations</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon/templates</argument>
       <argument type="collection">
-        <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations</argument>
-        <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations</argument>
-        <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations</argument>
+        <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations</argument>
+        <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations</argument>
+        <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations</argument>
       </argument>
       <argument type="collection">
-        <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/twig-bridge/Resources/views/Email</argument>
-        <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/twig-bridge/Resources/views/Form</argument>
+        <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\twig-bridge/Resources/views/Email</argument>
+        <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\twig-bridge/Resources/views/Form</argument>
       </argument>
       <argument type="collection"/>
       <call method="setName">
@@ -1132,16 +1123,16 @@
       <argument type="service" id="translation.reader"/>
       <argument type="service" id="translation.extractor"/>
       <argument>en</argument>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/translations</argument>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/templates</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon/translations</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon/templates</argument>
       <argument type="collection">
-        <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations</argument>
-        <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations</argument>
-        <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations</argument>
+        <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations</argument>
+        <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations</argument>
+        <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations</argument>
       </argument>
       <argument type="collection">
-        <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/twig-bridge/Resources/views/Email</argument>
-        <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/twig-bridge/Resources/views/Form</argument>
+        <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\twig-bridge/Resources/views/Email</argument>
+        <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\twig-bridge/Resources/views/Form</argument>
       </argument>
       <argument type="collection"/>
       <call method="setName">
@@ -1374,7 +1365,7 @@
       <argument></argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev/pools/system</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev/pools/system</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
@@ -1404,7 +1395,7 @@
       <tag name="monolog.logger" channel="cache"/>
       <argument></argument>
       <argument>0</argument>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev/pools/app</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev/pools/app</argument>
       <argument type="service" id="cache.default_marshaller" on-invalid="ignore"/>
       <call method="setLogger">
         <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
@@ -1570,7 +1561,7 @@
       <deprecated package="symfony/framework-bundle" version="5.3">The "%service_id%" service is deprecated, use "assets.json_manifest_version_strategy" instead.</deprecated>
     </service>
     <service id="assets._version__default" class="Symfony\Component\Asset\VersionStrategy\JsonManifestVersionStrategy">
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/public/build/manifest.json</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon/public/build/manifest.json</argument>
       <argument type="service" id=".debug.http_client" on-invalid="null"/>
       <argument>false</argument>
     </service>
@@ -1690,321 +1681,321 @@
         </argument>
       </argument>
       <argument type="collection">
-        <argument key="cache_dir">/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev/translations</argument>
+        <argument key="cache_dir">C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev/translations</argument>
         <argument key="debug">true</argument>
         <argument key="resource_files" type="collection">
           <argument key="af" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.af.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.af.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.af.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.af.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.af.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.af.xlf</argument>
           </argument>
           <argument key="ar" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.ar.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.ar.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.ar.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.ar.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.ar.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.ar.xlf</argument>
           </argument>
           <argument key="az" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.az.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.az.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.az.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.az.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.az.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.az.xlf</argument>
           </argument>
           <argument key="be" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.be.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.be.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.be.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.be.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.be.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.be.xlf</argument>
           </argument>
           <argument key="bg" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.bg.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.bg.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.bg.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.bg.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.bg.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.bg.xlf</argument>
           </argument>
           <argument key="bs" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.bs.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.bs.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.bs.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.bs.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.bs.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.bs.xlf</argument>
           </argument>
           <argument key="ca" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.ca.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.ca.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.ca.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.ca.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.ca.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.ca.xlf</argument>
           </argument>
           <argument key="cs" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.cs.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.cs.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.cs.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.cs.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.cs.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.cs.xlf</argument>
           </argument>
           <argument key="cy" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.cy.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.cy.xlf</argument>
           </argument>
           <argument key="da" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.da.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.da.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.da.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.da.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.da.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.da.xlf</argument>
           </argument>
           <argument key="de" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.de.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.de.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.de.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.de.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.de.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.de.xlf</argument>
           </argument>
           <argument key="el" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.el.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.el.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.el.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.el.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.el.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.el.xlf</argument>
           </argument>
           <argument key="en" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.en.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.en.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.en.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.en.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.en.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.en.xlf</argument>
           </argument>
           <argument key="es" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.es.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.es.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.es.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.es.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.es.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.es.xlf</argument>
           </argument>
           <argument key="et" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.et.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.et.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.et.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.et.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.et.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.et.xlf</argument>
           </argument>
           <argument key="eu" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.eu.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.eu.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.eu.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.eu.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.eu.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.eu.xlf</argument>
           </argument>
           <argument key="fa" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.fa.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.fa.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.fa.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.fa.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.fa.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.fa.xlf</argument>
           </argument>
           <argument key="fi" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.fi.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.fi.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.fi.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.fi.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.fi.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.fi.xlf</argument>
           </argument>
           <argument key="fr" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.fr.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.fr.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.fr.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.fr.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.fr.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.fr.xlf</argument>
           </argument>
           <argument key="gl" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.gl.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.gl.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.gl.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.gl.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.gl.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.gl.xlf</argument>
           </argument>
           <argument key="he" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.he.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.he.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.he.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.he.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.he.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.he.xlf</argument>
           </argument>
           <argument key="hr" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.hr.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.hr.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.hr.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.hr.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.hr.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.hr.xlf</argument>
           </argument>
           <argument key="hu" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.hu.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.hu.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.hu.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.hu.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.hu.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.hu.xlf</argument>
           </argument>
           <argument key="hy" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.hy.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.hy.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.hy.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.hy.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.hy.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.hy.xlf</argument>
           </argument>
           <argument key="id" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.id.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.id.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.id.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.id.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.id.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.id.xlf</argument>
           </argument>
           <argument key="it" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.it.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.it.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.it.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.it.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.it.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.it.xlf</argument>
           </argument>
           <argument key="ja" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.ja.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.ja.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.ja.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.ja.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.ja.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.ja.xlf</argument>
           </argument>
           <argument key="lb" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.lb.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.lb.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.lb.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.lb.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.lb.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.lb.xlf</argument>
           </argument>
           <argument key="lt" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.lt.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.lt.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.lt.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.lt.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.lt.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.lt.xlf</argument>
           </argument>
           <argument key="lv" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.lv.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.lv.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.lv.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.lv.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.lv.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.lv.xlf</argument>
           </argument>
           <argument key="mn" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.mn.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.mn.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.mn.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.mn.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.mn.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.mn.xlf</argument>
           </argument>
           <argument key="my" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.my.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.my.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.my.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.my.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.my.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.my.xlf</argument>
           </argument>
           <argument key="nb" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.nb.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.nb.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.nb.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.nb.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.nb.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.nb.xlf</argument>
           </argument>
           <argument key="nl" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.nl.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.nl.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.nl.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.nl.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.nl.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.nl.xlf</argument>
           </argument>
           <argument key="nn" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.nn.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.nn.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.nn.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.nn.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.nn.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.nn.xlf</argument>
           </argument>
           <argument key="no" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.no.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.no.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.no.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.no.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.no.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.no.xlf</argument>
           </argument>
           <argument key="pl" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.pl.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.pl.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.pl.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.pl.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.pl.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.pl.xlf</argument>
           </argument>
           <argument key="pt" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.pt.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.pt.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.pt.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.pt.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.pt.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.pt.xlf</argument>
           </argument>
           <argument key="pt_BR" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.pt_BR.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.pt_BR.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.pt_BR.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.pt_BR.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.pt_BR.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.pt_BR.xlf</argument>
           </argument>
           <argument key="ro" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.ro.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.ro.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.ro.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.ro.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.ro.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.ro.xlf</argument>
           </argument>
           <argument key="ru" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.ru.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.ru.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.ru.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.ru.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.ru.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.ru.xlf</argument>
           </argument>
           <argument key="sk" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.sk.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.sk.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.sk.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.sk.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.sk.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.sk.xlf</argument>
           </argument>
           <argument key="sl" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.sl.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.sl.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.sl.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.sl.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.sl.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.sl.xlf</argument>
           </argument>
           <argument key="sq" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.sq.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.sq.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.sq.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.sq.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.sq.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.sq.xlf</argument>
           </argument>
           <argument key="sr_Cyrl" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.sr_Cyrl.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.sr_Cyrl.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.sr_Cyrl.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.sr_Cyrl.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.sr_Cyrl.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.sr_Cyrl.xlf</argument>
           </argument>
           <argument key="sr_Latn" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.sr_Latn.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.sr_Latn.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.sr_Latn.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.sr_Latn.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.sr_Latn.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.sr_Latn.xlf</argument>
           </argument>
           <argument key="sv" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.sv.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.sv.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.sv.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.sv.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.sv.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.sv.xlf</argument>
           </argument>
           <argument key="th" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.th.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.th.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.th.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.th.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.th.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.th.xlf</argument>
           </argument>
           <argument key="tl" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.tl.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.tl.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.tl.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.tl.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.tl.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.tl.xlf</argument>
           </argument>
           <argument key="tr" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.tr.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.tr.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.tr.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.tr.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.tr.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.tr.xlf</argument>
           </argument>
           <argument key="uk" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.uk.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.uk.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.uk.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.uk.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.uk.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.uk.xlf</argument>
           </argument>
           <argument key="uz" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.uz.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.uz.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.uz.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.uz.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.uz.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.uz.xlf</argument>
           </argument>
           <argument key="vi" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.vi.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.vi.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.vi.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.vi.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.vi.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.vi.xlf</argument>
           </argument>
           <argument key="zh_CN" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.zh_CN.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.zh_CN.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.zh_CN.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.zh_CN.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.zh_CN.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.zh_CN.xlf</argument>
           </argument>
           <argument key="zh_TW" type="collection">
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations/validators.zh_TW.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations/validators.zh_TW.xlf</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations/security.zh_TW.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations\validators.zh_TW.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations\validators.zh_TW.xlf</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations\security.zh_TW.xlf</argument>
           </argument>
         </argument>
         <argument key="scanned_directories" type="collection">
-          <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/validator/Resources/translations</argument>
-          <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/translations</argument>
-          <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-core/Resources/translations</argument>
-          <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/translations</argument>
-          <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/framework-bundle/translations</argument>
-          <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/doctrine/doctrine-bundle/translations</argument>
-          <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/doctrine/doctrine-migrations-bundle/translations</argument>
-          <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/debug-bundle/translations</argument>
-          <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/twig-bundle/translations</argument>
-          <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/web-profiler-bundle/translations</argument>
-          <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/webpack-encore-bundle/src/translations</argument>
-          <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/twig/extra-bundle/translations</argument>
-          <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-bundle/translations</argument>
-          <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/monolog-bundle/translations</argument>
-          <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/maker-bundle/src/translations</argument>
-          <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/sensio/framework-extra-bundle/src/translations</argument>
-          <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/nelmio/cors-bundle/translations</argument>
+          <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations</argument>
+          <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations</argument>
+          <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations</argument>
+          <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon/translations</argument>
+          <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\framework-bundle/translations</argument>
+          <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\doctrine\doctrine-bundle/translations</argument>
+          <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\doctrine\doctrine-migrations-bundle/translations</argument>
+          <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\debug-bundle/translations</argument>
+          <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\twig-bundle/translations</argument>
+          <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\web-profiler-bundle/translations</argument>
+          <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\webpack-encore-bundle\src/translations</argument>
+          <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\twig\extra-bundle/translations</argument>
+          <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-bundle/translations</argument>
+          <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\monolog-bundle/translations</argument>
+          <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\maker-bundle\src/translations</argument>
+          <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\sensio\framework-extra-bundle\src/translations</argument>
+          <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\nelmio\cors-bundle/translations</argument>
         </argument>
         <argument key="cache_vary" type="collection">
           <argument key="scanned_directories" type="collection">
-            <argument>vendor/symfony/validator/Resources/translations</argument>
-            <argument>vendor/symfony/form/Resources/translations</argument>
-            <argument>vendor/symfony/security-core/Resources/translations</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\validator/Resources/translations</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/translations</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-core/Resources/translations</argument>
             <argument>translations</argument>
-            <argument>vendor/symfony/framework-bundle/translations</argument>
-            <argument>vendor/doctrine/doctrine-bundle/translations</argument>
-            <argument>vendor/doctrine/doctrine-migrations-bundle/translations</argument>
-            <argument>vendor/symfony/debug-bundle/translations</argument>
-            <argument>vendor/symfony/twig-bundle/translations</argument>
-            <argument>vendor/symfony/web-profiler-bundle/translations</argument>
-            <argument>vendor/symfony/webpack-encore-bundle/src/translations</argument>
-            <argument>vendor/twig/extra-bundle/translations</argument>
-            <argument>vendor/symfony/security-bundle/translations</argument>
-            <argument>vendor/symfony/monolog-bundle/translations</argument>
-            <argument>vendor/symfony/maker-bundle/src/translations</argument>
-            <argument>vendor/sensio/framework-extra-bundle/src/translations</argument>
-            <argument>vendor/nelmio/cors-bundle/translations</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\framework-bundle/translations</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\doctrine\doctrine-bundle/translations</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\doctrine\doctrine-migrations-bundle/translations</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\debug-bundle/translations</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\twig-bundle/translations</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\web-profiler-bundle/translations</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\webpack-encore-bundle\src/translations</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\twig\extra-bundle/translations</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-bundle/translations</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\monolog-bundle/translations</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\maker-bundle\src/translations</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\sensio\framework-extra-bundle\src/translations</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\nelmio\cors-bundle/translations</argument>
           </argument>
         </argument>
       </argument>
@@ -2209,7 +2200,7 @@
     <service id="translation.warmer" class="Symfony\Bundle\FrameworkBundle\CacheWarmer\TranslationsCacheWarmer">
       <tag name="container.service_subscriber" id="translator"/>
       <tag name="kernel.cache_warmer"/>
-      <argument type="service" id=".service_locator.J4b.DPX.translation.warmer"/>
+      <argument type="service" id=".service_locator.wSgjnB6.translation.warmer"/>
     </service>
     <service id="translation.provider_collection" class="Symfony\Component\Translation\Provider\TranslationProviderCollection">
       <argument type="collection"/>
@@ -2237,7 +2228,7 @@
     <service id="debug.file_link_formatter" class="Symfony\Component\HttpKernel\Debug\FileLinkFormatter">
       <argument>null</argument>
       <argument type="service" id="request_stack" on-invalid="ignore"/>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon</argument>
       <argument type="service_closure" id="debug.file_link_formatter.url_format"/>
     </service>
     <service id="debug.stopwatch" class="Symfony\Component\Stopwatch\Stopwatch">
@@ -2914,7 +2905,7 @@
     </service>
     <service id="routing.loader.container" class="Symfony\Component\Routing\Loader\ContainerLoader">
       <tag name="routing.loader"/>
-      <argument type="service" id=".service_locator.kODoftA"/>
+      <argument type="service" id=".service_locator.XWmhzGa"/>
       <argument>dev</argument>
     </service>
     <service id="routing.loader" class="Symfony\Bundle\FrameworkBundle\Routing\DelegatingLoader" public="true">
@@ -2927,10 +2918,10 @@
     <service id="router.default" class="Symfony\Bundle\FrameworkBundle\Routing\Router">
       <tag name="monolog.logger" channel="router"/>
       <tag name="container.service_subscriber" id="routing.loader"/>
-      <argument type="service" id=".service_locator.491LSII.router.default"/>
+      <argument type="service" id=".service_locator.NUKe30Y.router.default"/>
       <argument>kernel::loadRoutes</argument>
       <argument type="collection">
-        <argument key="cache_dir">/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev</argument>
+        <argument key="cache_dir">C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev</argument>
         <argument key="debug">true</argument>
         <argument key="generator_class">Symfony\Component\Routing\Generator\CompiledUrlGenerator</argument>
         <argument key="generator_dumper_class">Symfony\Component\Routing\Generator\Dumper\CompiledUrlGeneratorDumper</argument>
@@ -2964,12 +2955,12 @@
     </service>
     <service id="router.expression_language_provider" class="Symfony\Component\Routing\Matcher\ExpressionLanguageProvider">
       <tag name="routing.expression_language_provider"/>
-      <argument type="service" id=".service_locator.1ZPWTRB"/>
+      <argument type="service" id=".service_locator.Kr.dDlB"/>
     </service>
     <service id="router.cache_warmer" class="Symfony\Bundle\FrameworkBundle\CacheWarmer\RouterCacheWarmer">
       <tag name="container.service_subscriber" id="router"/>
       <tag name="kernel.cache_warmer"/>
-      <argument type="service" id=".service_locator.HLwzKIm.router.cache_warmer"/>
+      <argument type="service" id=".service_locator.oCg4uHe.router.cache_warmer"/>
     </service>
     <service id="router_listener" class="Symfony\Component\HttpKernel\EventListener\RouterListener">
       <tag name="kernel.event_subscriber"/>
@@ -2980,7 +2971,7 @@
       <argument type="service" id="request_stack"/>
       <argument type="service" id="router.request_context" on-invalid="ignore"/>
       <argument type="service" id="monolog.logger.request" on-invalid="ignore"/>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon</argument>
       <argument>true</argument>
     </service>
     <service id="Symfony\Bundle\FrameworkBundle\Controller\RedirectController" class="Symfony\Bundle\FrameworkBundle\Controller\RedirectController" public="true">
@@ -3047,13 +3038,13 @@
     <service id="annotations.cache_warmer" class="Symfony\Bundle\FrameworkBundle\CacheWarmer\AnnotationsCacheWarmer">
       <tag name="kernel.cache_warmer"/>
       <argument type="service" id="annotations.reader"/>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev/annotations.php</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev/annotations.php</argument>
       <argument>#^Symfony\\(?:Component\\HttpKernel\\|Bundle\\FrameworkBundle\\Controller\\(?!.*Controller$))#</argument>
       <argument>true</argument>
     </service>
     <service id="annotations.cache_adapter" class="Symfony\Component\Cache\Adapter\PhpArrayAdapter">
       <tag name="container.hot_path"/>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev/annotations.php</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev/annotations.php</argument>
       <argument type="service" id="cache.annotations"/>
       <factory class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" method="create"/>
     </service>
@@ -3071,7 +3062,7 @@
     </service>
     <service id="secrets.vault" class="Symfony\Bundle\FrameworkBundle\Secrets\SodiumVault">
       <tag name="container.env_var_loader"/>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/config/secrets/%env(default:kernel.environment:APP_RUNTIME_ENV)%</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon/config/secrets/%env(default:kernel.environment:APP_RUNTIME_ENV)%</argument>
       <argument type="service" id="secrets.decryption_key" on-invalid="ignore"/>
     </service>
     <service id="secrets.decryption_key" class="Symfony\Component\String\LazyString">
@@ -3080,7 +3071,7 @@
       <factory class="Symfony\Component\String\LazyString" method="fromCallable"/>
     </service>
     <service id="secrets.local_vault" class="Symfony\Bundle\FrameworkBundle\Secrets\DotenvVault">
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/.env.dev.local</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon/.env.dev.local</argument>
     </service>
     <service id="serializer" class="Symfony\Component\Serializer\Serializer" public="true">
       <tag name="container.private" package="symfony/framework-bundle" version="5.2"/>
@@ -3096,6 +3087,7 @@
         <argument type="service" id="serializer.normalizer.datetimezone"/>
         <argument type="service" id="serializer.normalizer.dateinterval"/>
         <argument type="service" id="serializer.normalizer.form_error"/>
+        <argument type="service" id="serializer.normalizer.backed_enum"/>
         <argument type="service" id="serializer.normalizer.data_uri"/>
         <argument type="service" id="serializer.denormalizer.array"/>
         <argument type="service" id="serializer.normalizer.object"/>
@@ -3193,10 +3185,10 @@
           </service>
         </argument>
       </argument>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev/serialization.php</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev/serialization.php</argument>
     </service>
     <service id="serializer.mapping.cache.symfony" class="Psr\Cache\CacheItemPoolInterface">
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev/serialization.php</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev/serialization.php</argument>
       <argument type="service" id="cache.serializer"/>
       <factory class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" method="create"/>
     </service>
@@ -3238,6 +3230,9 @@
           <factory class="Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer" method="isDebug"/>
         </service>
       </argument>
+    </service>
+    <service id="serializer.normalizer.backed_enum" class="Symfony\Component\Serializer\Normalizer\BackedEnumNormalizer">
+      <tag name="serializer.normalizer" priority="-915"/>
     </service>
     <service id="property_info" class="Symfony\Component\PropertyInfo\PropertyInfoExtractor">
       <argument type="iterator">
@@ -3330,7 +3325,7 @@
       <argument>true</argument>
     </service>
     <service id="session.storage.factory.mock_file" class="Symfony\Component\HttpFoundation\Session\Storage\MockFileSessionStorageFactory">
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev/sessions</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev/sessions</argument>
       <argument>MOCKSESSID</argument>
       <argument type="service">
         <service class="Symfony\Component\HttpFoundation\Session\Storage\MetadataBag">
@@ -3362,7 +3357,7 @@
     <service id="session.handler.native_file" class="Symfony\Component\HttpFoundation\Session\Storage\Handler\StrictSessionHandler">
       <argument type="service">
         <service class="Symfony\Component\HttpFoundation\Session\Storage\Handler\NativeFileSessionHandler">
-          <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev/sessions</argument>
+          <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev/sessions</argument>
         </service>
       </argument>
     </service>
@@ -3521,7 +3516,7 @@
       </call>
       <call method="addXmlMappings">
         <argument type="collection">
-          <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/form/Resources/config/validation.xml</argument>
+          <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\form/Resources/config/validation.xml</argument>
         </argument>
       </call>
       <call method="enableAnnotationMapping">
@@ -3549,10 +3544,10 @@
     <service id="validator.mapping.cache_warmer" class="Symfony\Bundle\FrameworkBundle\CacheWarmer\ValidatorCacheWarmer">
       <tag name="kernel.cache_warmer"/>
       <argument type="service" id="validator.builder"/>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev/validation.php</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev/validation.php</argument>
     </service>
     <service id="validator.mapping.cache.adapter" class="Symfony\Component\Cache\Adapter\PhpArrayAdapter">
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev/validation.php</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev/validation.php</argument>
       <argument type="service" id="cache.validator"/>
       <factory class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" method="create"/>
     </service>
@@ -3769,7 +3764,7 @@
       </argument>
     </service>
     <service id="notifier" class="Symfony\Component\Notifier\Notifier">
-      <argument type="service" id=".service_locator.dw8O4oN"/>
+      <argument type="service" id=".service_locator.UkE3SaZ"/>
       <argument type="service" id="notifier.channel_policy" on-invalid="ignore"/>
       <call method="addAdminRecipient">
         <argument type="service" id="notifier.admin_recipient.0"/>
@@ -3940,7 +3935,7 @@
       </call>
     </service>
     <service id="profiler.storage" class="Symfony\Component\HttpKernel\Profiler\FileProfilerStorage">
-      <argument>file:/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev/profiler</argument>
+      <argument>file:C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev/profiler</argument>
     </service>
     <service id="profiler_listener" class="Symfony\Component\HttpKernel\EventListener\ProfilerListener">
       <tag name="kernel.event_subscriber"/>
@@ -3987,7 +3982,7 @@
       <tag name="monolog.logger" channel="profiler"/>
       <tag name="data_collector" template="@WebProfiler/Collector/logger.html.twig" id="logger" priority="300"/>
       <argument type="service" id="monolog.logger.profiler" on-invalid="ignore"/>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev/App_KernelDevDebugContainer</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev/App_KernelDevDebugContainer</argument>
       <argument type="service" id="request_stack" on-invalid="ignore"/>
     </service>
     <service id="data_collector.time" class="Symfony\Component\HttpKernel\DataCollector\TimeDataCollector">
@@ -4288,7 +4283,7 @@
       <tag name="doctrine.event_subscriber"/>
       <argument type="tagged_iterator" tag="messenger.receiver"/>
     </service>
-    <service id=".1_ServiceLocator~TveW9ck" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".1_ServiceLocator~Xw.jWsW" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <argument type="collection"/>
     </service>
     <service id="doctrine.orm.proxy_cache_warmer" class="Symfony\Bridge\Doctrine\CacheWarmer\ProxyCacheWarmer">
@@ -4488,7 +4483,7 @@
         <argument type="service" id=".doctrine.orm.default_metadata_driver"/>
       </call>
       <call method="setProxyDir">
-        <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev/doctrine/orm/Proxies</argument>
+        <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev/doctrine/orm/Proxies</argument>
       </call>
       <call method="setProxyNamespace">
         <argument>Proxies</argument>
@@ -4518,7 +4513,7 @@
     <service id="doctrine.orm.default_annotation_metadata_driver" class="Doctrine\ORM\Mapping\Driver\AnnotationDriver">
       <argument type="service" id="annotations.cached_reader"/>
       <argument type="collection">
-        <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/src/Entity</argument>
+        <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\src\Entity</argument>
       </argument>
     </service>
     <service id="cache.doctrine.orm.default.metadata" class="Symfony\Component\Cache\Adapter\ArrayAdapter"/>
@@ -4584,7 +4579,7 @@
     <service id="doctrine.migrations.configuration" class="Doctrine\Migrations\Configuration\Configuration">
       <call method="addMigrationsDirectory">
         <argument>DoctrineMigrations</argument>
-        <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/migrations</argument>
+        <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon/migrations</argument>
       </call>
       <call method="setAllOrNothing">
         <argument>false</argument>
@@ -4769,7 +4764,7 @@
         <argument key="source" type="service">
           <service class="Symfony\Component\VarDumper\Dumper\ContextProvider\SourceContextProvider">
             <argument>UTF-8</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon</argument>
             <argument type="service" id="debug.file_link_formatter" on-invalid="null"/>
           </service>
         </argument>
@@ -4791,7 +4786,7 @@
         <argument key="source" type="service">
           <service class="Symfony\Component\VarDumper\Dumper\ContextProvider\SourceContextProvider">
             <argument>UTF-8</argument>
-            <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone</argument>
+            <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon</argument>
             <argument type="service" id="debug.file_link_formatter" on-invalid="null"/>
           </service>
         </argument>
@@ -4856,7 +4851,7 @@
       <argument type="service" id="twig.loader.native_filesystem"/>
       <argument type="collection">
         <argument key="autoescape">name</argument>
-        <argument key="cache">/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev/twig</argument>
+        <argument key="cache">C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev/twig</argument>
         <argument key="charset">UTF-8</argument>
         <argument key="debug">true</argument>
         <argument key="strict_variables">true</argument>
@@ -4968,74 +4963,74 @@
     <service id="twig.template_iterator" class="Symfony\Bundle\TwigBundle\TemplateIterator">
       <argument type="service" id="kernel"/>
       <argument type="collection">
-        <argument key="/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/twig-bridge/Resources/views/Email">email</argument>
-        <argument key="/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/twig-bridge/Resources/views/Form">null</argument>
+        <argument key="C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\twig-bridge/Resources/views/Email">email</argument>
+        <argument key="C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\twig-bridge/Resources/views/Form">null</argument>
       </argument>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/templates</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon/templates</argument>
     </service>
     <service id="twig.template_cache_warmer" class="Symfony\Bundle\TwigBundle\CacheWarmer\TemplateCacheWarmer">
       <tag name="kernel.cache_warmer"/>
       <tag name="container.service_subscriber" id="twig"/>
-      <argument type="service" id=".service_locator.aq4MYft.twig.template_cache_warmer"/>
+      <argument type="service" id=".service_locator.v.Wwsjy.twig.template_cache_warmer"/>
       <argument type="service" id="twig.template_iterator"/>
     </service>
     <service id="twig.loader.native_filesystem" class="Twig\Loader\FilesystemLoader">
       <tag name="twig.loader"/>
       <argument type="collection"/>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon</argument>
       <call method="addPath">
-        <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/doctrine/doctrine-bundle/Resources/views</argument>
+        <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\doctrine\doctrine-bundle/Resources/views</argument>
         <argument>Doctrine</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/doctrine/doctrine-bundle/Resources/views</argument>
+        <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\doctrine\doctrine-bundle/Resources/views</argument>
         <argument>!Doctrine</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/doctrine/doctrine-migrations-bundle/Resources/views</argument>
+        <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\doctrine\doctrine-migrations-bundle/Resources/views</argument>
         <argument>DoctrineMigrations</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/doctrine/doctrine-migrations-bundle/Resources/views</argument>
+        <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\doctrine\doctrine-migrations-bundle/Resources/views</argument>
         <argument>!DoctrineMigrations</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/debug-bundle/Resources/views</argument>
+        <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\debug-bundle/Resources/views</argument>
         <argument>Debug</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/debug-bundle/Resources/views</argument>
+        <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\debug-bundle/Resources/views</argument>
         <argument>!Debug</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/web-profiler-bundle/Resources/views</argument>
+        <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\web-profiler-bundle/Resources/views</argument>
         <argument>WebProfiler</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/web-profiler-bundle/Resources/views</argument>
+        <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\web-profiler-bundle/Resources/views</argument>
         <argument>!WebProfiler</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-bundle/Resources/views</argument>
+        <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-bundle/Resources/views</argument>
         <argument>Security</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/security-bundle/Resources/views</argument>
+        <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\security-bundle/Resources/views</argument>
         <argument>!Security</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/templates</argument>
+        <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon/templates</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/twig-bridge/Resources/views/Email</argument>
+        <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\twig-bridge/Resources/views/Email</argument>
         <argument>email</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/twig-bridge/Resources/views/Email</argument>
+        <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\twig-bridge/Resources/views/Email</argument>
         <argument>!email</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/vendor/symfony/twig-bridge/Resources/views/Form</argument>
+        <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\vendor\symfony\twig-bridge/Resources/views/Form</argument>
       </call>
     </service>
     <service id="twig.loader.chain" class="Twig\Loader\ChainLoader"/>
@@ -5061,7 +5056,7 @@
     <service id="twig.extension.code" class="Symfony\Bridge\Twig\Extension\CodeExtension">
       <tag name="twig.extension"/>
       <argument type="service" id="debug.file_link_formatter" on-invalid="ignore"/>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon</argument>
       <argument>UTF-8</argument>
     </service>
     <service id="twig.extension.routing" class="Symfony\Bridge\Twig\Extension\RoutingExtension">
@@ -5147,9 +5142,9 @@
       <tag name="console.command"/>
       <tag name="container.no_preload"/>
       <argument type="service" id="twig"/>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon</argument>
       <argument>%kernel.bundles_metadata%</argument>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/templates</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon/templates</argument>
       <argument type="service" id="debug.file_link_formatter" on-invalid="null"/>
       <call method="setName">
         <argument>debug:twig</argument>
@@ -5183,7 +5178,7 @@
       <argument type="service" id="twig"/>
       <argument>%data_collector.templates%</argument>
       <argument type="service" id="web_profiler.csp.handler"/>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon</argument>
     </service>
     <service id="web_profiler.controller.router" class="Symfony\Bundle\WebProfilerBundle\Controller\RouterController" public="true">
       <argument type="service" id="profiler" on-invalid="null"/>
@@ -5234,7 +5229,7 @@
       <argument type="service" id="web_profiler.csp.handler"/>
       <argument type="service" id="data_collector.dump" on-invalid="ignore"/>
     </service>
-    <service id=".1_ServiceLocator~uwn_hYH" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".1_ServiceLocator~9ql6qGF" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="webpack_encore.entrypoint_lookup_collection" type="service_closure" id="webpack_encore.entrypoint_lookup_collection"/>
@@ -5258,7 +5253,7 @@
     </service>
     <service id="webpack_encore.twig_entry_files_extension" class="Symfony\WebpackEncoreBundle\Twig\EntryFilesTwigExtension">
       <tag name="twig.extension"/>
-      <argument type="service" id=".1_ServiceLocator~uwn_hYH"/>
+      <argument type="service" id=".1_ServiceLocator~9ql6qGF"/>
     </service>
     <service id="webpack_encore.twig_stimulus_extension" class="Symfony\WebpackEncoreBundle\Twig\StimulusTwigExtension">
       <tag name="twig.extension"/>
@@ -5266,12 +5261,12 @@
     <service id="webpack_encore.entrypoint_lookup.cache_warmer" class="Symfony\WebpackEncoreBundle\CacheWarmer\EntrypointCacheWarmer">
       <tag name="kernel.cache_warmer"/>
       <argument type="collection">
-        <argument key="_default">/Users/macdeleo/Desktop/dansmazone/dansmazone/public/build/entrypoints.json</argument>
+        <argument key="_default">C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon/public/build/entrypoints.json</argument>
       </argument>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev/webpack_encore.cache.php</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev/webpack_encore.cache.php</argument>
     </service>
     <service id="webpack_encore.cache" class="Symfony\Component\Cache\Adapter\PhpArrayAdapter">
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev/webpack_encore.cache.php</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev/webpack_encore.cache.php</argument>
       <argument type="service" id="cache.webpack_encore"/>
       <factory class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" method="create"/>
     </service>
@@ -5297,7 +5292,7 @@
     </service>
     <service id="webpack_encore.entrypoint_lookup[_default]" class="Symfony\WebpackEncoreBundle\Asset\EntrypointLookup">
       <tag name="kernel.reset" method="reset"/>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/public/build/entrypoints.json</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon/public/build/entrypoints.json</argument>
       <argument>null</argument>
       <argument>_default</argument>
       <argument>true</argument>
@@ -5835,7 +5830,7 @@
       <tag name="container.no_preload"/>
       <argument>%security.firewalls%</argument>
       <argument type="service" id=".service_locator.zJyh7qS"/>
-      <argument type="service" id=".service_locator.jlyTfzM"/>
+      <argument type="service" id=".service_locator.XsyfP82"/>
       <argument type="collection">
         <argument key="main" type="collection">
           <argument type="service" id="security.authenticator.form_login.main"/>
@@ -6210,7 +6205,7 @@
     <service id="monolog.processor.psr_log_message" class="Monolog\Processor\PsrLogMessageProcessor"/>
     <service id="monolog.handler.main" class="Monolog\Handler\StreamHandler">
       <tag name="kernel.reset" method="reset"/>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/var/log/dev.log</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\log/dev.log</argument>
       <argument>100</argument>
       <argument>true</argument>
       <argument>null</argument>
@@ -6232,8 +6227,8 @@
       <argument type="service" id="filesystem"/>
       <argument type="service" id="maker.autoloader_util"/>
       <argument type="service" id="maker.file_link_formatter"/>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone</argument>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/templates</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon/templates</argument>
     </service>
     <service id="maker.autoloader_finder" class="Symfony\Bundle\MakerBundle\Util\ComposerAutoloaderFinder">
       <argument>App</argument>
@@ -6396,7 +6391,7 @@
     </service>
     <service id="maker.maker.make_migration" class="Symfony\Bundle\MakerBundle\Maker\MakeMigration">
       <tag name="maker.command"/>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon</argument>
     </service>
     <service id="maker.maker.make_stimulus_controller" class="Symfony\Bundle\MakerBundle\Maker\MakeStimulusController">
       <tag name="maker.command"/>
@@ -6442,7 +6437,7 @@
       <tag name="container.hot_path"/>
       <argument type="service" id="sensio_framework_extra.view.guesser"/>
       <call method="setContainer">
-        <argument type="service" id=".service_locator.PQK0.4p.sensio_framework_extra.view.listener"/>
+        <argument type="service" id=".service_locator.aNklfos.sensio_framework_extra.view.listener"/>
       </call>
     </service>
     <service id="sensio_framework_extra.cache.listener" class="Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener">
@@ -6837,112 +6832,112 @@
         <argument>Creates a new Stimulus controller</argument>
       </call>
     </service>
-    <service id=".service_locator.KfwZsne" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.bRdave9" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
       <argument type="collection">
-        <argument key="response" type="service_closure" id=".errored..service_locator.KfwZsne.Symfony\Component\HttpFoundation\Response"/>
+        <argument key="response" type="service_closure" id=".errored..service_locator.bRdave9.Symfony\Component\HttpFoundation\Response"/>
       </argument>
     </service>
-    <service id=".service_locator.KfbR3DY" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.xUrKPVU" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
       <argument type="collection">
-        <argument key="loader" type="service_closure" id=".errored..service_locator.KfbR3DY.Symfony\Component\Config\Loader\LoaderInterface"/>
+        <argument key="loader" type="service_closure" id=".errored..service_locator.xUrKPVU.Symfony\Component\Config\Loader\LoaderInterface"/>
       </argument>
     </service>
-    <service id=".service_locator.JeTwYn4" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.0Fb1YCW" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="productRepository" type="service_closure" id="App\Repository\ProductRepository"/>
       </argument>
     </service>
-    <service id=".service_locator.QhOf4G0" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.6ENwjLy" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="manager" type="service_closure" id="doctrine.orm.default_entity_manager"/>
         <argument key="slugger" type="service_closure" id="slugger"/>
       </argument>
     </service>
-    <service id=".service_locator.eiWWj8O" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.aF2iAdw" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="manager" type="service_closure" id="doctrine.orm.default_entity_manager"/>
-        <argument key="product" type="service_closure" id=".errored..service_locator.eiWWj8O.App\Entity\Product"/>
+        <argument key="product" type="service_closure" id=".errored..service_locator.aF2iAdw.App\Entity\Product"/>
         <argument key="slugger" type="service_closure" id="slugger"/>
       </argument>
     </service>
-    <service id=".service_locator.cMgpYgF" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.t6Wd0lL" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="manager" type="service_closure" id="doctrine.orm.default_entity_manager"/>
-        <argument key="product" type="service_closure" id=".errored..service_locator.cMgpYgF.App\Entity\Product"/>
+        <argument key="product" type="service_closure" id=".errored..service_locator.t6Wd0lL.App\Entity\Product"/>
       </argument>
     </service>
-    <service id=".service_locator.sbvMfph" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.KGarYJv" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="cartService" type="service_closure" id="App\Service\Cart\CartService"/>
       </argument>
     </service>
-    <service id=".service_locator.zC.2RPT" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.gF2Fepa" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
       <argument type="collection"/>
     </service>
-    <service id=".service_locator.y2D9fmo" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.vXPKdub" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="productRepo" type="service_closure" id="App\Repository\ProductRepository"/>
       </argument>
     </service>
-    <service id=".service_locator..tt6s91" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.1GhMgDN" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="em" type="service_closure" id="doctrine.orm.default_entity_manager"/>
         <argument key="encoder" type="service_closure" id="security.user_password_encoder.generic"/>
       </argument>
     </service>
-    <service id=".service_locator.XEotb6I" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.3D32Lup" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="check" type="service_closure" id="security.user_password_encoder.generic"/>
         <argument key="userRepository" type="service_closure" id="App\Repository\UserRepository"/>
       </argument>
     </service>
-    <service id=".service_locator.P0DwNqk" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.ecubiyl" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
       <argument type="collection">
-        <argument key="App\Controller\AdminController::adminProductCreate" type="service_closure" id=".service_locator.QhOf4G0"/>
-        <argument key="App\Controller\AdminController::adminProductDelete" type="service_closure" id=".service_locator.cMgpYgF"/>
-        <argument key="App\Controller\AdminController::adminProductEdit" type="service_closure" id=".service_locator.eiWWj8O"/>
-        <argument key="App\Controller\AdminController::index" type="service_closure" id=".service_locator.JeTwYn4"/>
-        <argument key="App\Controller\CartController::add" type="service_closure" id=".service_locator.sbvMfph"/>
-        <argument key="App\Controller\CartController::index" type="service_closure" id=".service_locator.sbvMfph"/>
-        <argument key="App\Controller\CartController::remove" type="service_closure" id=".service_locator.sbvMfph"/>
-        <argument key="App\Controller\ProductController::index" type="service_closure" id=".service_locator.y2D9fmo"/>
-        <argument key="App\Controller\ProductController::show" type="service_closure" id=".service_locator.cMgpYgF"/>
-        <argument key="App\Controller\ProductController::showNewProducts" type="service_closure" id=".service_locator.y2D9fmo"/>
-        <argument key="App\Controller\SecurityController::login" type="service_closure" id=".service_locator.XEotb6I"/>
-        <argument key="App\Controller\SecurityController::registration" type="service_closure" id=".service_locator..tt6s91"/>
-        <argument key="App\Kernel::loadRoutes" type="service_closure" id=".service_locator.KfbR3DY"/>
-        <argument key="App\Kernel::registerContainerConfiguration" type="service_closure" id=".service_locator.KfbR3DY"/>
-        <argument key="App\Kernel::terminate" type="service_closure" id=".service_locator.KfwZsne"/>
-        <argument key="kernel::loadRoutes" type="service_closure" id=".service_locator.KfbR3DY"/>
-        <argument key="kernel::registerContainerConfiguration" type="service_closure" id=".service_locator.KfbR3DY"/>
-        <argument key="kernel::terminate" type="service_closure" id=".service_locator.KfwZsne"/>
-        <argument key="App\Controller\AdminController:adminProductCreate" type="service_closure" id=".service_locator.QhOf4G0"/>
-        <argument key="App\Controller\AdminController:adminProductDelete" type="service_closure" id=".service_locator.cMgpYgF"/>
-        <argument key="App\Controller\AdminController:adminProductEdit" type="service_closure" id=".service_locator.eiWWj8O"/>
-        <argument key="App\Controller\AdminController:index" type="service_closure" id=".service_locator.JeTwYn4"/>
-        <argument key="App\Controller\CartController:add" type="service_closure" id=".service_locator.sbvMfph"/>
-        <argument key="App\Controller\CartController:index" type="service_closure" id=".service_locator.sbvMfph"/>
-        <argument key="App\Controller\CartController:remove" type="service_closure" id=".service_locator.sbvMfph"/>
-        <argument key="App\Controller\ProductController:index" type="service_closure" id=".service_locator.y2D9fmo"/>
-        <argument key="App\Controller\ProductController:show" type="service_closure" id=".service_locator.cMgpYgF"/>
-        <argument key="App\Controller\ProductController:showNewProducts" type="service_closure" id=".service_locator.y2D9fmo"/>
-        <argument key="App\Controller\SecurityController:login" type="service_closure" id=".service_locator.XEotb6I"/>
-        <argument key="App\Controller\SecurityController:registration" type="service_closure" id=".service_locator..tt6s91"/>
-        <argument key="kernel:loadRoutes" type="service_closure" id=".service_locator.KfbR3DY"/>
-        <argument key="kernel:registerContainerConfiguration" type="service_closure" id=".service_locator.KfbR3DY"/>
-        <argument key="kernel:terminate" type="service_closure" id=".service_locator.KfwZsne"/>
+        <argument key="App\Controller\AdminController::adminProductCreate" type="service_closure" id=".service_locator.6ENwjLy"/>
+        <argument key="App\Controller\AdminController::adminProductDelete" type="service_closure" id=".service_locator.t6Wd0lL"/>
+        <argument key="App\Controller\AdminController::adminProductEdit" type="service_closure" id=".service_locator.aF2iAdw"/>
+        <argument key="App\Controller\AdminController::index" type="service_closure" id=".service_locator.0Fb1YCW"/>
+        <argument key="App\Controller\CartController::add" type="service_closure" id=".service_locator.KGarYJv"/>
+        <argument key="App\Controller\CartController::index" type="service_closure" id=".service_locator.KGarYJv"/>
+        <argument key="App\Controller\CartController::remove" type="service_closure" id=".service_locator.KGarYJv"/>
+        <argument key="App\Controller\ProductController::index" type="service_closure" id=".service_locator.vXPKdub"/>
+        <argument key="App\Controller\ProductController::show" type="service_closure" id=".service_locator.t6Wd0lL"/>
+        <argument key="App\Controller\ProductController::showNewProducts" type="service_closure" id=".service_locator.vXPKdub"/>
+        <argument key="App\Controller\SecurityController::login" type="service_closure" id=".service_locator.3D32Lup"/>
+        <argument key="App\Controller\SecurityController::registration" type="service_closure" id=".service_locator.1GhMgDN"/>
+        <argument key="App\Kernel::loadRoutes" type="service_closure" id=".service_locator.xUrKPVU"/>
+        <argument key="App\Kernel::registerContainerConfiguration" type="service_closure" id=".service_locator.xUrKPVU"/>
+        <argument key="App\Kernel::terminate" type="service_closure" id=".service_locator.bRdave9"/>
+        <argument key="kernel::loadRoutes" type="service_closure" id=".service_locator.xUrKPVU"/>
+        <argument key="kernel::registerContainerConfiguration" type="service_closure" id=".service_locator.xUrKPVU"/>
+        <argument key="kernel::terminate" type="service_closure" id=".service_locator.bRdave9"/>
+        <argument key="App\Controller\AdminController:adminProductCreate" type="service_closure" id=".service_locator.6ENwjLy"/>
+        <argument key="App\Controller\AdminController:adminProductDelete" type="service_closure" id=".service_locator.t6Wd0lL"/>
+        <argument key="App\Controller\AdminController:adminProductEdit" type="service_closure" id=".service_locator.aF2iAdw"/>
+        <argument key="App\Controller\AdminController:index" type="service_closure" id=".service_locator.0Fb1YCW"/>
+        <argument key="App\Controller\CartController:add" type="service_closure" id=".service_locator.KGarYJv"/>
+        <argument key="App\Controller\CartController:index" type="service_closure" id=".service_locator.KGarYJv"/>
+        <argument key="App\Controller\CartController:remove" type="service_closure" id=".service_locator.KGarYJv"/>
+        <argument key="App\Controller\ProductController:index" type="service_closure" id=".service_locator.vXPKdub"/>
+        <argument key="App\Controller\ProductController:show" type="service_closure" id=".service_locator.t6Wd0lL"/>
+        <argument key="App\Controller\ProductController:showNewProducts" type="service_closure" id=".service_locator.vXPKdub"/>
+        <argument key="App\Controller\SecurityController:login" type="service_closure" id=".service_locator.3D32Lup"/>
+        <argument key="App\Controller\SecurityController:registration" type="service_closure" id=".service_locator.1GhMgDN"/>
+        <argument key="kernel:loadRoutes" type="service_closure" id=".service_locator.xUrKPVU"/>
+        <argument key="kernel:registerContainerConfiguration" type="service_closure" id=".service_locator.xUrKPVU"/>
+        <argument key="kernel:terminate" type="service_closure" id=".service_locator.bRdave9"/>
       </argument>
     </service>
     <service id=".service_locator.19_mNxd" class="Symfony\Component\DependencyInjection\ServiceLocator">
@@ -7344,7 +7339,7 @@
         <argument key="translation.loader.yml" type="service_closure" id="translation.loader.yml"/>
       </argument>
     </service>
-    <service id=".service_locator.GNc8e5B" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.mx0UMmY" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="doctrine" type="service_closure" id="doctrine" on-invalid="ignore"/>
@@ -7363,95 +7358,95 @@
         <argument key="twig" type="service_closure" id="twig" on-invalid="ignore"/>
       </argument>
     </service>
-    <service id=".service_locator.GNc8e5B.App\Controller\AdminController" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.mx0UMmY.App\Controller\AdminController" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator_context" id="App\Controller\AdminController"/>
       <argument>App\Controller\AdminController</argument>
       <argument type="service" id="service_container"/>
-      <factory service=".service_locator.GNc8e5B" method="withContext"/>
+      <factory service=".service_locator.mx0UMmY" method="withContext"/>
     </service>
-    <service id=".service_locator.GNc8e5B.App\Controller\CartController" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.mx0UMmY.App\Controller\CartController" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator_context" id="App\Controller\CartController"/>
       <argument>App\Controller\CartController</argument>
       <argument type="service" id="service_container"/>
-      <factory service=".service_locator.GNc8e5B" method="withContext"/>
+      <factory service=".service_locator.mx0UMmY" method="withContext"/>
     </service>
-    <service id=".service_locator.GNc8e5B.App\Controller\HomeController" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.mx0UMmY.App\Controller\HomeController" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator_context" id="App\Controller\HomeController"/>
       <argument>App\Controller\HomeController</argument>
       <argument type="service" id="service_container"/>
-      <factory service=".service_locator.GNc8e5B" method="withContext"/>
+      <factory service=".service_locator.mx0UMmY" method="withContext"/>
     </service>
-    <service id=".service_locator.GNc8e5B.App\Controller\ProductController" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.mx0UMmY.App\Controller\ProductController" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator_context" id="App\Controller\ProductController"/>
       <argument>App\Controller\ProductController</argument>
       <argument type="service" id="service_container"/>
-      <factory service=".service_locator.GNc8e5B" method="withContext"/>
+      <factory service=".service_locator.mx0UMmY" method="withContext"/>
     </service>
-    <service id=".service_locator.GNc8e5B.App\Controller\SecurityController" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.mx0UMmY.App\Controller\SecurityController" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator_context" id="App\Controller\SecurityController"/>
       <argument>App\Controller\SecurityController</argument>
       <argument type="service" id="service_container"/>
-      <factory service=".service_locator.GNc8e5B" method="withContext"/>
+      <factory service=".service_locator.mx0UMmY" method="withContext"/>
     </service>
-    <service id=".service_locator.J4b.DPX" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.wSgjnB6" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="translator" type="service_closure" id="translator.data_collector"/>
       </argument>
     </service>
-    <service id=".service_locator.J4b.DPX.translation.warmer" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.wSgjnB6.translation.warmer" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator_context" id="translation.warmer"/>
       <argument>translation.warmer</argument>
       <argument type="service" id="service_container"/>
-      <factory service=".service_locator.J4b.DPX" method="withContext"/>
+      <factory service=".service_locator.wSgjnB6" method="withContext"/>
     </service>
-    <service id=".service_locator.491LSII" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.NUKe30Y" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="routing.loader" type="service_closure" id="routing.loader"/>
       </argument>
     </service>
-    <service id=".service_locator.491LSII.router.default" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.NUKe30Y.router.default" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator_context" id="router.default"/>
       <argument>router.default</argument>
       <argument type="service" id="service_container"/>
-      <factory service=".service_locator.491LSII" method="withContext"/>
+      <factory service=".service_locator.NUKe30Y" method="withContext"/>
     </service>
-    <service id=".service_locator.HLwzKIm" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.oCg4uHe" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="router" type="service_closure" id="router.default"/>
       </argument>
     </service>
-    <service id=".service_locator.HLwzKIm.router.cache_warmer" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.oCg4uHe.router.cache_warmer" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator_context" id="router.cache_warmer"/>
       <argument>router.cache_warmer</argument>
       <argument type="service" id="service_container"/>
-      <factory service=".service_locator.HLwzKIm" method="withContext"/>
+      <factory service=".service_locator.oCg4uHe" method="withContext"/>
     </service>
-    <service id=".service_locator.aq4MYft" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.v.Wwsjy" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="twig" type="service_closure" id="twig"/>
       </argument>
     </service>
-    <service id=".service_locator.aq4MYft.twig.template_cache_warmer" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.v.Wwsjy.twig.template_cache_warmer" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator_context" id="twig.template_cache_warmer"/>
       <argument>twig.template_cache_warmer</argument>
       <argument type="service" id="service_container"/>
-      <factory service=".service_locator.aq4MYft" method="withContext"/>
+      <factory service=".service_locator.v.Wwsjy" method="withContext"/>
     </service>
-    <service id=".service_locator.PQK0.4p" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.aNklfos" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="twig" type="service_closure" id="twig" on-invalid="ignore"/>
       </argument>
     </service>
-    <service id=".service_locator.PQK0.4p.sensio_framework_extra.view.listener" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.aNklfos.sensio_framework_extra.view.listener" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator_context" id="sensio_framework_extra.view.listener"/>
       <argument>sensio_framework_extra.view.listener</argument>
       <argument type="service" id="service_container"/>
-      <factory service=".service_locator.PQK0.4p" method="withContext"/>
+      <factory service=".service_locator.aNklfos" method="withContext"/>
     </service>
     <service id=".service_locator.XXv1IfR" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
@@ -7459,20 +7454,20 @@
         <argument key="reverse_container" type="service_closure" id="reverse_container" on-invalid="ignore_uninitialized"/>
       </argument>
     </service>
-    <service id=".service_locator.jlyTfzM" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.XsyfP82" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="event_dispatcher" type="service_closure" id="debug.event_dispatcher"/>
         <argument key="security.event_dispatcher.main" type="service_closure" id="security.event_dispatcher.main"/>
       </argument>
     </service>
-    <service id=".service_locator.kODoftA" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.XWmhzGa" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="kernel" type="service_closure" id="kernel"/>
       </argument>
     </service>
-    <service id=".service_locator.1ZPWTRB" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.Kr.dDlB" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="env" type="service_closure" id="container.getenv"/>
@@ -7488,7 +7483,7 @@
         <argument key="session_factory" type="service_closure" id="session.factory" on-invalid="ignore"/>
       </argument>
     </service>
-    <service id=".service_locator.dw8O4oN" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.UkE3SaZ" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="browser" type="service_closure" id="notifier.channel.browser"/>
@@ -7567,12 +7562,12 @@
       <argument type="service" id="security.token_storage"/>
     </service>
     <service id="debug.argument_resolver.service.inner" class="Symfony\Component\HttpKernel\Controller\ArgumentResolver\ServiceValueResolver">
-      <argument type="service" id=".service_locator.P0DwNqk"/>
+      <argument type="service" id=".service_locator.ecubiyl"/>
     </service>
     <service id="debug.argument_resolver.default.inner" class="Symfony\Component\HttpKernel\Controller\ArgumentResolver\DefaultValueResolver"/>
     <service id="debug.argument_resolver.variadic.inner" class="Symfony\Component\HttpKernel\Controller\ArgumentResolver\VariadicValueResolver"/>
     <service id="debug.argument_resolver.not_tagged_controller.inner" class="Symfony\Component\HttpKernel\Controller\ArgumentResolver\NotTaggedControllerValueResolver">
-      <argument type="service" id=".service_locator.P0DwNqk"/>
+      <argument type="service" id=".service_locator.ecubiyl"/>
     </service>
     <service id="debug.traced.messenger.bus.default.inner" class="Symfony\Component\Messenger\MessageBus">
       <argument type="iterator">
@@ -7599,10 +7594,10 @@
         <argument>App\Entity</argument>
       </call>
     </service>
-    <service id=".errored..service_locator.KfwZsne.Symfony\Component\HttpFoundation\Response" class="Symfony\Component\HttpFoundation\Response"/>
-    <service id=".errored..service_locator.KfbR3DY.Symfony\Component\Config\Loader\LoaderInterface" class="Symfony\Component\Config\Loader\LoaderInterface"/>
-    <service id=".errored..service_locator.eiWWj8O.App\Entity\Product" class="App\Entity\Product"/>
-    <service id=".errored..service_locator.cMgpYgF.App\Entity\Product" class="App\Entity\Product"/>
+    <service id=".errored..service_locator.bRdave9.Symfony\Component\HttpFoundation\Response" class="Symfony\Component\HttpFoundation\Response"/>
+    <service id=".errored..service_locator.xUrKPVU.Symfony\Component\Config\Loader\LoaderInterface" class="Symfony\Component\Config\Loader\LoaderInterface"/>
+    <service id=".errored..service_locator.aF2iAdw.App\Entity\Product" class="App\Entity\Product"/>
+    <service id=".errored..service_locator.t6Wd0lL.App\Entity\Product" class="App\Entity\Product"/>
     <service id=".console.command.about.lazy" class="Symfony\Component\Console\Command\LazyCommand">
       <argument>about</argument>
       <argument type="collection"/>
@@ -8079,7 +8074,7 @@
     </service>
     <service id="console.command_loader" class="Symfony\Component\Console\CommandLoader\ContainerCommandLoader" public="true">
       <tag name="container.no_preload"/>
-      <argument type="service" id=".service_locator.JSYUy_w"/>
+      <argument type="service" id=".service_locator.qKarEQl"/>
       <argument type="collection">
         <argument key="about">console.command.about</argument>
         <argument key="assets:install">console.command.assets_install</argument>
@@ -8185,7 +8180,7 @@
         <argument key="make:stimulus-controller">maker.auto_command.make_stimulus_controller</argument>
       </argument>
     </service>
-    <service id=".service_locator.JSYUy_w" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.qKarEQl" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="console.command.about" type="service_closure" id=".console.command.about.lazy"/>
@@ -8290,86 +8285,86 @@
       </argument>
     </service>
     <service id="cache.app.recorder_inner" class="Symfony\Component\Cache\Adapter\FilesystemAdapter">
-      <argument>jF5XbU1S8H</argument>
+      <argument>vVoI24mcHD</argument>
       <argument>0</argument>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev/pools/app</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev/pools/app</argument>
       <argument type="service" id="cache.default_marshaller" on-invalid="ignore"/>
       <call method="setLogger">
         <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       </call>
     </service>
     <service id="cache.system.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface">
-      <argument>VmmliySV3C</argument>
+      <argument>cyq1wuwYxH</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev/pools/system</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev/pools/system</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.validator.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface">
-      <argument>QUH5V4Mznb</argument>
+      <argument>kV7gsQN4Wh</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev/pools/system</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev/pools/system</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.serializer.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface">
-      <argument>hxvGgPnBwd</argument>
+      <argument>agVN9SpH7d</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev/pools/system</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev/pools/system</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.annotations.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface">
-      <argument>OLj-u5Nk9v</argument>
+      <argument>fepLY3BnHw</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev/pools/system</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev/pools/system</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.property_info.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface">
-      <argument>sYR8f262To</argument>
+      <argument>QtK4rR0NhA</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev/pools/system</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev/pools/system</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.messenger.restart_workers_signal.recorder_inner" class="Symfony\Component\Cache\Adapter\FilesystemAdapter">
-      <argument>BLykREnt8g</argument>
+      <argument>Qb-FAeBPjt</argument>
       <argument>0</argument>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev/pools/app</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev/pools/app</argument>
       <argument type="service" id="cache.default_marshaller" on-invalid="ignore"/>
       <call method="setLogger">
         <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       </call>
     </service>
     <service id="cache.validator_expression_language.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface">
-      <argument>zpl38ymM3o</argument>
+      <argument>SoFZr8nDU3</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev/pools/system</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev/pools/system</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.doctrine.orm.default.result.recorder_inner" class="Symfony\Component\Cache\Adapter\ArrayAdapter"/>
     <service id="cache.doctrine.orm.default.query.recorder_inner" class="Symfony\Component\Cache\Adapter\ArrayAdapter"/>
     <service id="cache.webpack_encore.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface">
-      <argument>WuA972MUpa</argument>
+      <argument>szQI5jl1tW</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev/pools/system</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev/pools/system</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.security_expression_language.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface">
-      <argument>-s4kZRHaAP</argument>
+      <argument>613ZMmupLz</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
-      <argument>/Users/macdeleo/Desktop/dansmazone/dansmazone/var/cache/dev/pools/system</argument>
+      <argument>C:\Users\33665\OneDrive\Bureau\Projet_Symfony\dansmazon\var\cache\dev/pools/system</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
@@ -8549,7 +8544,7 @@
     <service id="sensio_framework_extra.security.expression_language" alias="sensio_framework_extra.security.expression_language.default"/>
     <service id="container.env_var_processors_locator" alias=".service_locator.gSv9zYw" public="true"/>
     <service id="twig.loader.filesystem" alias="twig.loader.native_filesystem"/>
-    <service id="argument_resolver.controller_locator" alias=".service_locator.P0DwNqk"/>
+    <service id="argument_resolver.controller_locator" alias=".service_locator.ecubiyl"/>
     <service id="session" alias=".session.do-not-use" public="true">
       <deprecated package="symfony/framework-bundle" version="5.3">The "%alias_id%" service and "SessionInterface" alias are deprecated, use "$requestStack-&gt;getSession()" instead.</deprecated>
     </service>
@@ -8572,17 +8567,17 @@
     <service id="Psr\Log\LoggerInterface $deprecationLogger" alias="monolog.logger.deprecation"/>
     <service id=".service_locator.80edgLI" alias="messenger.receiver_locator"/>
     <service id=".service_locator.h8Jkkd2" alias="messenger.retry_strategy_locator"/>
-    <service id=".service_locator.XDGmiR3" alias=".1_ServiceLocator~uwn_hYH"/>
+    <service id=".service_locator.XDGmiR3" alias=".1_ServiceLocator~9ql6qGF"/>
     <service id=".service_locator.0GV1BZZ" alias=".service_locator.gSv9zYw"/>
-    <service id=".service_locator.hGfwRMI" alias=".service_locator.eiWWj8O"/>
-    <service id=".service_locator.nJLgal9" alias=".service_locator.cMgpYgF"/>
-    <service id=".service_locator.jQRWnv4" alias=".service_locator.XEotb6I"/>
-    <service id=".service_locator.SFpbOrd" alias=".service_locator.P0DwNqk"/>
+    <service id=".service_locator.2mKvfl1" alias=".service_locator.aF2iAdw"/>
+    <service id=".service_locator.F.anQ4E" alias=".service_locator.t6Wd0lL"/>
+    <service id=".service_locator.tYDKX30" alias=".service_locator.3D32Lup"/>
+    <service id=".service_locator.QcGBYoL" alias=".service_locator.ecubiyl"/>
     <service id=".service_locator.wKF4yn1" alias=".service_locator.19_mNxd"/>
     <service id=".service_locator.Ipm6G2C" alias=".service_locator.Ca5dgaM"/>
     <service id=".service_locator.nk0lT0X" alias=".service_locator.1kmbKC8"/>
     <service id=".service_locator.O24_MAy" alias=".service_locator.yY.p4P7"/>
-    <service id=".service_locator.W9y3dzm" alias=".service_locator.GNc8e5B"/>
+    <service id=".service_locator.0ghLsew" alias=".service_locator.mx0UMmY"/>
     <service id="validator" alias="debug.validator" public="true"/>
     <service id="event_dispatcher" alias="debug.event_dispatcher" public="true"/>
     <service id="controller_resolver" alias="debug.controller_resolver"/>
@@ -8604,19 +8599,19 @@
     <service id="messenger.bus.default" alias="debug.traced.messenger.bus.default"/>
     <service id="http_client" alias=".debug.http_client"/>
     <service id="doctrine.orm.default_metadata_driver" alias=".doctrine.orm.default_metadata_driver"/>
-    <service id=".service_locator._5g_Wvc" alias=".service_locator.KfwZsne"/>
-    <service id=".service_locator.JBAFp66" alias=".service_locator.KfbR3DY"/>
-    <service id=".service_locator.0.yQVTX" alias=".service_locator.JeTwYn4"/>
-    <service id=".service_locator.6LyzgZI" alias=".service_locator.QhOf4G0"/>
-    <service id=".service_locator.F8wKc9b" alias=".service_locator.eiWWj8O"/>
-    <service id=".service_locator.FLvg0uj" alias=".service_locator.cMgpYgF"/>
-    <service id=".service_locator.XS4jt.k" alias=".service_locator.sbvMfph"/>
-    <service id=".service_locator.CZNxtqm" alias=".service_locator.y2D9fmo"/>
-    <service id=".service_locator.9yqzbdx" alias=".service_locator..tt6s91"/>
-    <service id=".service_locator.HfJksHH" alias=".service_locator.XEotb6I"/>
-    <service id=".service_locator.Wd_D6Iy" alias=".service_locator.GNc8e5B"/>
+    <service id=".service_locator.FatRZu2" alias=".service_locator.bRdave9"/>
+    <service id=".service_locator.uo5c0SP" alias=".service_locator.xUrKPVU"/>
+    <service id=".service_locator.sa.k_vl" alias=".service_locator.0Fb1YCW"/>
+    <service id=".service_locator.BU.adML" alias=".service_locator.6ENwjLy"/>
+    <service id=".service_locator.HrGScMq" alias=".service_locator.aF2iAdw"/>
+    <service id=".service_locator.olds7YX" alias=".service_locator.t6Wd0lL"/>
+    <service id=".service_locator.HiPFraK" alias=".service_locator.KGarYJv"/>
+    <service id=".service_locator.k..iyTd" alias=".service_locator.vXPKdub"/>
+    <service id=".service_locator.x5m4r_." alias=".service_locator.1GhMgDN"/>
+    <service id=".service_locator.8lafjwm" alias=".service_locator.3D32Lup"/>
+    <service id=".service_locator.A740LBW" alias=".service_locator.mx0UMmY"/>
     <service id=".service_locator.L0rFhJm" alias=".service_locator.GVyCdgr"/>
-    <service id=".service_locator.9YCWxeJ" alias=".service_locator.dw8O4oN"/>
+    <service id=".service_locator.pFwChgS" alias=".service_locator.UkE3SaZ"/>
     <service id=".service_locator.aa1PbBb" alias=".service_locator.nLgZj7R"/>
   </services>
 </container>
