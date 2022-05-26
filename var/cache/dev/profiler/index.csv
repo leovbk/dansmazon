@@ -59,3 +59,8 @@ fffafb,::1,POST,http://localhost:8000/email,1653378602,,200
 6bb018,::1,GET,http://localhost:8000/products,1653381733,,200
 231ea4,::1,GET,http://localhost:8000/products,1653381758,,200
 ebfd84,::1,GET,http://localhost:8000/products,1653381767,,200
+85f3f7,::1,GET,http://localhost:8000/,1653491723,,200
+c36d5b,::1,GET,http://localhost:8000/nouveautes,1653491791,7c6232,500
+7c6232,::1,GET,http://localhost:8000/nouveautes,1653491791,,500
+2a84cd,::1,GET,http://localhost:8000/nouveautes,1653492950,eaf675,500
+eaf675,::1,GET,http://localhost:8000/nouveautes,1653492950,,500
